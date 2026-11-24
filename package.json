@@ -1,0 +1,15 @@
+{
+  "name": "unicode-inspector",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Reveal Unicode code points, including whitespace, in pasted text.",
+  "license": "MIT",
+  "type": "module",
+  "exports": "./transform.mjs",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test"
+  }
+}
